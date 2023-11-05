@@ -3,7 +3,11 @@
  * @return {number}
  */
 var argumentsLength = function(...args) {
-	return [...args].length
+    let i = 0;
+    while (i < args.length) {
+        i++
+    }
+    return i
 };
 
 /**
